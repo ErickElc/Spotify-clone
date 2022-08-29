@@ -1,6 +1,6 @@
 import logo from '../../assets/images-header/spotify.png';
 import foto from '../../assets/images-header/foto.png';
-import {FiAlignJustify, FiXCircle} from "react-icons/fi"
+import { FiAlignJustify, FiXCircle } from "react-icons/fi"
 import React, {useState} from "react"
 import './header.scss';
 

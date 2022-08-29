@@ -59,6 +59,10 @@ header{
                 left: -75px;
                 border-radius: 10px;
                 height: 100px;
+                #divClose{
+                    width: 0px;
+                    visibility: hidden;
+                }
                 li{
                     width: 0;
                     height: 0;
@@ -132,14 +136,6 @@ header{
                         &:hover{
                             color: #1ed760;               
                         }
-                    }
-                }
-                @keyframes popup-mobile {
-                    0% {
-                        transform: translateX(100px);
-                    }
-                    100% {
-                        transform: translateX(0);
                     }
                 }
             }
