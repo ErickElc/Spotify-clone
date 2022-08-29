@@ -1,0 +1,46 @@
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+
+        img{
+            height: 75px;
+            width: 150px;
+            margin-left: 50px;
+        }
+    }
+    .container-lista{
+        margin: 10px;
+        margin-right: 50px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li{
+                margin: 20px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 700;
+                    &:hover{
+                        color: #1ed760;
+                    }
+                }
+                div{
+                    #icon{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            #baixar{
+                border-right: 1px solid white;
+            }
+        }
+        div{
+            display: flex;
+        }
+    }
+}
